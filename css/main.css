@@ -1,0 +1,259 @@
+
+/* main string  black */
+#partPage1 {
+  background-color: black;
+}
+
+#partPage2 {
+  height: 150vh;
+}
+
+#mainString {
+  height: 9vh;
+  width: 55em;
+  margin: 2em 1.5em 2em 0em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+
+#logo {
+  /* top: 2em; */
+  margin-top: 0,5em;
+  transform: rotate(90deg);
+  width: 50px;
+  height: 50px;
+
+}
+
+#logoP {
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Bevan';
+}
+
+
+#logoP:hover {
+  color: grey;
+}
+
+
+
+.mainText {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.mainText:hover {
+  color: yellow;
+}
+
+
+/* icon white */
+
+#backetDiv {
+  height: 8vh;
+  width: 3em;
+  margin: 2em 0em 0em 8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.basket {
+  height: 1.7em;
+  width: auto;
+
+}
+
+#basketNumber {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+/* container carousel logo */
+
+#contCarLog {
+  height: 80vh;
+  margin: 0em 4em 0em 5em;
+  padding: 0;
+  display: block;
+  position: relative;
+  z-index: 100 !important;
+  bottom: 60em;
+
+}
+  
+
+
+  /* side logo */
+
+  
+  #sideLogoP {
+    color: black;
+    font-size: 7.5em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-family: 'Bevan';
+    transform: rotate(90deg);
+    margin: 0;
+    padding: 0; 
+  }
+
+/* carousel div */
+
+
+#carNain {
+  width: 1200px; 
+  height: 550px;
+  background-color: rgb(240, 228, 63);
+  z-index: 201;
+}
+
+
+/* left Side */
+#carDivLeft {
+  height: 100%;
+}
+
+
+.carSpoon {
+  height: 38%;
+  width: 50%;
+  background-image: url(./spon1.png) ;
+}
+
+
+/* Right Side */
+
+#carDivRight {
+  width: 50%;
+  height: 100%;
+}
+
+#fryingPan {
+  height: 60%;
+  margin: 0;
+  padding: 0;
+  background-image: url(./img1.png) ;
+  background-position: right; 
+}
+
+/* text img */
+
+
+
+#imgText {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: 0.5em;
+  color: white;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+#divTexts {
+  position: absolute;
+  width: 10em;
+  height: 8vh;
+  background-color: white;
+  left: 60%;
+  top: 80%;
+}
+
+#imgTextSec {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+#imgTextFore {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  left: 60%;
+  top: 70%;
+}
+
+#imgTextThird {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  left: 60%;
+  top: 60%;
+}
+
+/* carousel second div */
+
+#carNain2 {
+  width: 1200px; 
+  height: 550px;
+  background-color: rgb(31, 118, 168);
+}
+
+#carDivLeft2 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.skovorodaDiv {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 80%;
+  background-image: url(./scovoroda.png) ;
+} 
+
+/* text second div */
+
+#textSecDivTop {
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+#textSecDivTop2 {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+#divTexts2 {
+  position: absolute;
+  width: 17em;
+  height: 8vh;
+  background-color: white;
+  left: 60%;
+  top: 80%;
+}
+
+#imgTextSec2 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+#zachorknute {
+  font-size: 0.5em;
+  font-weight: 100;
+  text-decoration: line-through;
+}
+
